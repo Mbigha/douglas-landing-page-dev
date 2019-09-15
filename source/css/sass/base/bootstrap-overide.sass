@@ -1,0 +1,60 @@
+%white-border-and-background
+  background-color: $color-white
+  border-color: $color-white
+
+%black-border-and-background
+  background-color: $color-white
+  border-color: $color-white
+
+%black-border-and-background
+  background-color: $color-black !important
+  border-color: $color-black !important
+
+%box-shadow-none
+  box-shadow: none !important
+
+.btn
+  color: $color-black !important
+  font-family: AvenirNextBold
+  font-weight: bold
+  text-transform: uppercase
+
+  &-secondary
+    @extend %white-border-and-background
+
+    &:hover
+      @extend %white-border-and-background
+
+    &:focus
+      @extend %box-shadow-none
+
+    &:not(:disabled):not(.disabled):active:focus
+      @extend %box-shadow-none
+
+    &:active
+      background-color: $color-white !important
+
+  &-primary
+    @extend %black-border-and-background
+    color: $color-white !important
+
+    &:hover
+      @extend %black-border-and-background
+
+    &:focus
+      @extend %box-shadow-none
+
+    &:active
+      @extend %black-border-and-background
+
+
+
+.custom-control-input:checked~.custom-control-label::before
+  color: #fff
+  border-color: black
+  background-color: black
+  border-radius: 0
+  transition: none !important
+
+.custom-control-label::before
+

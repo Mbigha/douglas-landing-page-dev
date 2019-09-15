@@ -1,0 +1,55 @@
+
+@font-face
+  font-family: AvenirNext
+  src: url("fonts/AvenirNext/AvenirNext-Regular.ttf")
+
+@font-face
+  font-family: AvenirNextBold
+  src: url("fonts/AvenirNext/AvenirNext-Bold.ttf")
+
+@font-face
+  font-family: ZahrahforDouglas
+  src: url("fonts/ZahrahforDouglas/ZahrahforDouglas-Regular.ttf")
+
+
+%avenir-next-font-family
+  font-family: AvenirNext
+
+%avenir-next-bold-font-family
+  font-family: AvenirNextBold
+
+%zahrahfordouglas-font-family
+  font-family: ZahrahforDouglas
+
+%set-black-text-color
+  color: $color-black !important
+
+%heading-font-family
+  font-family: Museo, serif
+
+%black-border-bottom
+  border-bottom: 1px solid $color-black !important
+
+%box-positioning
+  position: relative
+  top: -80px
+
+
+body
+  @extend %avenir-next-font-family
+
+.bodyText
+  color: $color-text
+  font-size: $font-size-15
+
+  &.-small
+    font-size: small
+
+  &.-italic
+    font-style: italic
+
+  &.-bold
+    font-weight: bold
+
+  &.-black
+    color: $color-black

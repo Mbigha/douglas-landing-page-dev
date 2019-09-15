@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/shudrum/array-finder" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/michelf/php-markdown" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/alchemy/zippy" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/wrench/wrench" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/pattern-lab/plugin-reload" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/pattern-lab/styleguidekit-mustache-default" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/pattern-lab/styleguidekit-assets-default" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/pattern-lab/patternengine-mustache" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/pattern-lab/core" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/kevinlebrun/colors.php" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/mustache/mustache" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/patternlab2-with-demo/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.4.0" />
+</project>

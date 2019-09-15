@@ -1,0 +1,303 @@
+/* Abstracts */
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+/*------------------------------------*\
+    #COLORS
+\*------------------------------------*/
+/*
+ * 1) Color variables involve a two-tier system to keep colors in sync. The
+ *    first tier defines the brand and neutral colors, and the second tier
+ *    defines the application of those colors.
+ */
+/*
+ * Brand Colors
+ * 1) Brand color variables use English names to define colors to make palettes easier to
+ *    identify. Names are generated using this tool: http://chir.ag/projects/name-that-color/
+ * 2) Brand color variables should typically not be used directly in Sass partials. Instead, use
+ *    second-tier application colors.
+ *
+ */
+/*
+ * Neutral Colors
+ * 1) Neutral color variables use a numbered system to define variables for better maintainability.
+ *    "$color-gray-10" means "10% gray", which is a gray closer to white than to black. For more info
+ *    read https://medium.com/eightshapes-llc/color-in-design-systems-a1c80f65fa3#.brevrq67p
+ */
+/**
+ * Utility Colors
+ * 1) Utility colors are colors used to provide feedback, such as alert messages,
+ * form validation, etc.
+ */
+/*
+ * Text Colors
+ * 1) These are non-linked text colors, such as body copy.
+ */
+/*
+ * Heading Colors
+ * 1) These are non-linked heading colors, such as h2, h3, etc.
+ */
+/*
+ * Text Link Colors
+ * 1) These are for linked text, such as a link found within an article,
+ *    navigation link, footer link, etc.
+ */
+/*
+ * Border Colors
+ * 1) Border colors are used as decoration or dividers, such as as a seperator
+ *    for navigation items, block borders, etc.
+ */
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+@font-face {
+  font-family: Museo;
+  src: url("fonts/Museo300Regular.otf");
+}
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+/**
+ * Spacing Defaults
+ */
+/*------------------------------------*\
+    #BORDERS
+\*------------------------------------*/
+/**
+ * Border Width
+ */
+/**
+ * Border Radius
+ */
+/*------------------------------------*\
+    #ANIMATION
+\*------------------------------------*/
+/**
+ * Animation Duration
+ */
+/**
+ * Animation Easing
+ */
+/*------------------------------------*\
+    #BREAKPOINTS
+\*------------------------------------*/
+/**
+ * Breakpoints
+ */
+@font-face {
+  font-family: AvenirNext;
+  src: url("fonts/AvenirNext/AvenirNext-Regular.ttf");
+}
+@font-face {
+  font-family: AvenirNextBold;
+  src: url("fonts/AvenirNext/AvenirNext-Bold.ttf");
+}
+@font-face {
+  font-family: ZahrahforDouglas;
+  src: url("fonts/ZahrahforDouglas/ZahrahforDouglas-Regular.ttf");
+}
+.bodyHeader, .contentText, .header__text, body {
+  font-family: AvenirNext;
+}
+
+.bodySubHeading, .hero__heading {
+  font-family: ZahrahforDouglas;
+}
+
+.bodySubHeading, .bodyHeader, .header__text {
+  color: #000 !important;
+}
+
+.kundenSuchen__form, .formField:focus, .formField:active, .formField {
+  border-bottom: 1px solid #000 !important;
+}
+
+.benefits, .contactFormContainer {
+  position: relative;
+  top: -80px;
+}
+
+.bodyText {
+  color: #7d7d7d;
+  font-size: 15px;
+}
+.bodyText.-small {
+  font-size: small;
+}
+.bodyText.-italic {
+  font-style: italic;
+}
+.bodyText.-bold {
+  font-weight: bold;
+}
+.bodyText.-black {
+  color: #000;
+}
+
+/* Base */
+.btn-secondary:hover, .btn-secondary {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-primary:active, .btn-primary:hover, .btn-primary {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-primary:active, .btn-primary:hover, .btn-primary {
+  background-color: #000 !important;
+  border-color: #000 !important;
+}
+
+.btn-primary:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:focus {
+  box-shadow: none !important;
+}
+
+.btn {
+  color: #000 !important;
+  font-family: AvenirNextBold;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.btn-secondary:active {
+  background-color: #fff !important;
+}
+.btn-primary {
+  color: #fff !important;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: black;
+  background-color: black;
+  border-radius: 0;
+  transition: none !important;
+}
+
+/* Components */
+.header__text.-bold {
+  font-weight: bold;
+}
+
+.hero__heading {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.line {
+  border: 3px solid;
+  margin: 1em 0;
+  height: initial !important;
+  width: 15%;
+}
+
+.contentText.-bold {
+  font-weight: bold;
+}
+
+.bodyHeader {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.formField.-noBorder {
+  border-bottom: 0 !important;
+}
+.formField:focus {
+  outline: none;
+}
+
+.contactForm__checkboxLabel:before {
+  border-color: #000;
+  background-color: #fff;
+  border-radius: 0 !important;
+  transition: none !important;
+}
+
+.iconWithContent__icon {
+  width: 20% !important;
+}
+
+.footerNav__link {
+  color: #000;
+}
+.footerNav__link:hover {
+  text-decoration: none;
+}
+
+.logo.-small {
+  width: 10%;
+}
+
+.hero__arrow {
+  width: 10%;
+}
+
+.contactFormWithFoto__person {
+  background-image: url("../../images/douglas/shore_demo_sebastian_blank.png");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Molecules */
+.kundenSuchen {
+  margin-top: 5rem !important;
+}
+
+.kundenGewinnen {
+  background-color: #D3D3D3;
+  position: relative;
+  top: -60px;
+}
+@media (min-width: 768px) {
+  .kundenGewinnen {
+    left: 30px;
+  }
+}
+
+.contactFormContainer {
+  top: -130px;
+}
+
+/* Organisms */
+.hero {
+  background-image: url("../../images/douglas/hero_desktop.jpg");
+  background-size: cover;
+  padding-bottom: 8rem !important;
+}
+
+.benefits {
+  background-color: #D3D3D3;
+}
+
+.benefitsKundenSuchen {
+  padding-bottom: 10rem !important;
+  margin-bottom: 5rem !important;
+  background-image: url("../../images/douglas/map.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.siteFooter {
+  background-color: #D3D3D3;
+}
+
+.benefitsSection {
+  background-color: #F7F7F7;
+}
+@media (min-width: 768px) {
+  .benefitsSection {
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contactUsSection {
+    height: 250px;
+  }
+}
+
+/*# sourceMappingURL=custom.css.map */

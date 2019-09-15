@@ -1,0 +1,23 @@
+<div class="hero pt-5">
+    <div class="container">
+        <div class="row">
+
+            {{# heroSection }}
+                <div class="col-md-4 col-sm-12">
+                    {{> atoms-hero-heading }}
+                    {{> atoms-horizontal-line:hero__line }}
+                    {{> atoms-paragraph:-bold text-white }}
+
+                    <div class="my-4">
+                        {{# heroPoints }}
+                            {{> molecules-hero-point }}
+                        {{/ heroPoints }}
+                    </div>
+                    {{> atoms-link-button:btn-secondary }}
+                </div>
+                <div class="col-md-4 col-sm-12"></div>
+                <div class="col-md-4 col-sm-12"></div>
+            {{/ heroSection }}
+        </div>
+    </div>
+</div>

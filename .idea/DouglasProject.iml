@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/patternlab2-with-demo/core/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/alchemy/zippy" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/kevinlebrun/colors.php" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/michelf/php-markdown" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/mustache/mustache" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/pattern-lab/core" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/pattern-lab/patternengine-mustache" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/pattern-lab/plugin-reload" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/pattern-lab/styleguidekit-assets-default" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/pattern-lab/styleguidekit-mustache-default" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/seld/jsonlint" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/shudrum/array-finder" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/patternlab2-with-demo/vendor/wrench/wrench" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
